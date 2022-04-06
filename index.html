@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DIVERTIVIAJES</title>
+    <link rel="icon" href="./img/LogoMakr-7shXTl.ico">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <header class="main-header bg-dark position-sticky top-0" >
+        <nav class="nav-bar">
+            <ul class="nav nav-pills mb-3 py-3 container" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true" href="#pills-tabContent">Inicio</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" href="pills-profile">Destinos</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" href="pills-contact">Carrito</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="viaje">
+        <h1 class="titulo-viaje">DIVERTIVIAJES</h1>
+    </div>
+    <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+        Producto Añadido al Carrito!
+    </div>
+
+    <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+        Producto eliminado del Carrito!
+    </div>
+            <div class="tab-content viaje-vuelo" id="pills-tabContent">
+                <br><br>
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="container-slider">
+                        <div class="slider" id="slider">
+                            <div class="slider--section">
+                                <img src="img/cancun.jpg" alt="" class="slider--img">
+                            </div>
+                            <div class="slider--section">
+                                <img src="img/Floripa.jpg" alt="" class="slider--img">
+                            </div>
+                            <div class="slider--section">
+                                <img src="img/maldivas.jpg" alt="" class="slider--img">
+                            </div>
+                            <div class="slider--section">
+                                <img src="img/PuntaCana.jpg" alt="" class="slider--img">
+                            </div>
+                        </div>
+                        <div class="slider-btn slider--btn--right" id="btn-right">&#62</div>
+                        <div class="slider-btn slider--btn--left" id="btn-left">&#60</div>
+                    </div>
+                    <br><br>    
+                    <div class="row">
+                        <div class="col-sm-5">
+                          <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" >¿Por qué conviene comprar paquetes?</h5>
+                                <p class="card-text">Al comprar tus paquetes turísticos podés conseguir un valor más bajo en tu viaje, ya que al sumar un alojamiento o un auto, obtenés un descuento significativo. ¡Comprar paquetes de viaje siempre te va a resultar más barato! Podés armar tu paquete a medida, ahorrar en el valor total y gastar esa plata en tu viaje. ¡Aprovechá viajes baratos a un sinfín de destinos!</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">¿Qué productos podés incluir en tu paquete?</h5>
+                                    <p class="card-text">Una vez que elijas tu paquete turístico vas a poder sumar otros productos, como el alquiler de un auto, el traslado desde el aeropuerto y actividades para hacer en tu destino. Armá tu paquete como vos quieras. Comprá actividades para conocer los puntos turísticos más importantes del lugar al que viajás, o contratá un traslado para llegar más rápido y cómodo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="tab-pane fade container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="row row-cols-sm-1 row row-cols-ml-2 row row-cols-lg-3 row row-cols-xl-4">
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Bariloche</h5>
+                                <img src="/img/bariloche.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 560</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Bombinhas</h5>
+                                <img src="/img/bombinhas.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 385</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Camboriu</h5>
+                                <img src="/img/camboriu.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 375</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Curaçao</h5>
+                                <img src="/img/curacao.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 1.030</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Cancun</h5>
+                                <img src="/img/cancun.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 970</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Disney</h5>
+                                <img src="/img/Disney.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-black-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 1.287</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Florianopolis</h5>
+                                <img src="/img/Floripa.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 427</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Machu Picchu</h5>
+                                <img src="/img/machuPicchu.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 1.292</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Madrid</h5>
+                                <img src="/img/Madrid.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 1.082</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Miami</h5>
+                                <img src="/img/Miami.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 789</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">New York</h5>
+                                <img src="/img/newYork.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 1.234</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Paris</h5>
+                                <img src="/img/paris.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 1.001</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Punta Cana</h5>
+                                <img src="/img/PuntaCana.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blaak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 910</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Dubai</h5>
+                                <img src="/img/rio.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 1.886</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Roma</h5>
+                                <img src="/img/roma.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 1.042</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col d-flex justify-content-center-mb-4">
+                            <div class="card shadow mb-1 bg-white rounded" style="width: 20rem;">
+                                <h5 class="card-title pt-2 text-center text-primary">Maldivas</h5>
+                                <img src="/img/maldivas.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-blak-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="text-primary">Precio: <span class="precio">U$S 3.482</span></h5>
+                                    <div class="d-grid gap-2">
+                                        <button  class="btn btn-primary button">Añadir al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <section id="presu" class="form-presu">
+                        <h1>Calcula el presupuesto de tu viaje</h1>
+                        <div class="main">
+                            <form class="formulario-pre" id="vacacionesCalc">
+                                <div class="mb-3">
+                                    <label for="destino"></label>
+                                    <input type="text" class="form" placeholder="Destino" id="destino" name="destino" required/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="presupuesto"></label>
+                                    <input type="number" class="form" placeholder="Presupuesto" id="presupuesto" name="presupuesto" required/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="hospedaje"></label>
+                                    <input type="number" class="form" placeholder="Hospedaje" id="hospedaje" class="hospedaje" required/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="transporte"></label>
+                                    <input type="number" class="form" placeholder="Transporte" id="transporte" class="tranposrte" required/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="comida"></label>
+                                    <input type="number" class="form" placeholder="Comida" id="comida" class="comida" required/>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Calcular</button>
+                            </form>
+                        </div>
+                    </section>
+                        <div class="container">
+                            <div class="icons">
+                                <h5><i class="fas fa-plane"></i></h5>
+                                <h5><i class="fas fa-wallet"></i></h5> 
+                                <h5><i class="fas fa-money-bill-wave-alt"></i></h5>  
+                            </div>
+                        
+                            <div class="data">
+                                <div class="result" id="result"></div>
+                            </div>
+                        </div>
+                </div>
+                <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <br><br>
+                    <table class="table table-pink table-striped">
+                        <thead>
+                        <tr class="text-primary">
+                            <th scope="col">#</th>
+                            <th scope="col">Destinos</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Cantidad</th>
+                        </tr>
+                        </thead>
+                        <tbody class="tbody">
+                            
+                        </tbody>
+                    </table>
+                    <br><br><br>
+                    <div class="row mx-4">
+                        <div class="col">
+                            <h3 class="itemCartTotal"></h3>
+                        </div>
+                        <div class="col d-flex justify-content-end">
+                            <button class="btn btn-success">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- <section id="inicio">
+            <div class="content-header">
+                <h1>TURISMO</h1>
+                <p>La mejor forma de viajar</p>
+                <a href="#presu">Calcular ahora</a>
+            </div>
+
+        </section>  -->
+    <br><br>
+    <div id="main"></div>
+    
+    
+    
+    <br><br>
+    
+    <footer class="bg-dark p-3 mt-5">
+        <p class="text-center m-0 text-muted">DIVERTIVIAJES - Todos los derechos reservados</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
